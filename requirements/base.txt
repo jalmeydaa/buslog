@@ -1,0 +1,7 @@
+Django==1.9.8
+django-debug-toolbar==1.4
+Pillow==3.2.0
+psycopg2==2.6.1
+sorl-thumbnail==12.3
+sqlparse==0.1.19
+Unipath==1.1
