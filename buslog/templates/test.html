@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test | BusLog</title>
+
+    <!-- JQuery libraries -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- React libraries -->
+    <script src="https://fb.me/react-0.14.3.js"></script>
+    <script src="https://fb.me/react-dom-0.14.3.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+	<h2>Test BusLog</h2>
+	<div id="div-choferes"></div>
+
+	<script type="text/babel" src="{% static 'js/app.js' %}"></script>
+	<script type="text/babel" src="{% static 'js/query.js' %}"></script>
+</body>
+</html>

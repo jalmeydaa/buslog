@@ -55,6 +55,12 @@ class UserDetail(generics.RetrieveAPIView):
 	queryset = User.objects.all()
 	serializer_class = UserSerializer
 
+def testBusLog(request):
+	template = 'test.html'
+	
+	return render(request,template,locals())
+
+
 
 '''
 class ChoferList(mixins.ListModelMixin, mixins.CreateModelMixin, generics.GenericAPIView):
